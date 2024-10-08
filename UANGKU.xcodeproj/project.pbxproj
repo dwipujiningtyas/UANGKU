@@ -16,6 +16,9 @@
 		191C8C582CB5599A00126D89 /* UANGKUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191C8C572CB5599A00126D89 /* UANGKUTests.swift */; };
 		191C8C622CB5599A00126D89 /* UANGKUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191C8C612CB5599A00126D89 /* UANGKUUITests.swift */; };
 		191C8C642CB5599A00126D89 /* UANGKUUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191C8C632CB5599A00126D89 /* UANGKUUITestsLaunchTests.swift */; };
+		191C8C742CB55E5700126D89 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191C8C732CB55E5700126D89 /* HomeView.swift */; };
+		191C8C762CB5602E00126D89 /* TransactionsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191C8C752CB5602D00126D89 /* TransactionsDetailView.swift */; };
+		191C8C782CB5603E00126D89 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191C8C772CB5603E00126D89 /* CategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		191C8C5D2CB5599A00126D89 /* UANGKUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UANGKUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		191C8C612CB5599A00126D89 /* UANGKUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UANGKUUITests.swift; sourceTree = "<group>"; };
 		191C8C632CB5599A00126D89 /* UANGKUUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UANGKUUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		191C8C732CB55E5700126D89 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		191C8C752CB5602D00126D89 /* TransactionsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsDetailView.swift; sourceTree = "<group>"; };
+		191C8C772CB5603E00126D89 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 				191C8C4A2CB5599900126D89 /* Persistence.swift */,
 				191C8C4C2CB5599900126D89 /* UANGKU.xcdatamodeld */,
 				191C8C472CB5599900126D89 /* Preview Content */,
+				191C8C702CB55D8200126D89 /* Views */,
 			);
 			path = UANGKU;
 			sourceTree = "<group>";
@@ -131,6 +138,16 @@
 				191C8C632CB5599A00126D89 /* UANGKUUITestsLaunchTests.swift */,
 			);
 			path = UANGKUUITests;
+			sourceTree = "<group>";
+		};
+		191C8C702CB55D8200126D89 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				191C8C732CB55E5700126D89 /* HomeView.swift */,
+				191C8C752CB5602D00126D89 /* TransactionsDetailView.swift */,
+				191C8C772CB5603E00126D89 /* CategoryView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,8 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				191C8C4B2CB5599900126D89 /* Persistence.swift in Sources */,
+				191C8C782CB5603E00126D89 /* CategoryView.swift in Sources */,
 				191C8C442CB5599500126D89 /* ContentView.swift in Sources */,
 				191C8C4E2CB5599900126D89 /* UANGKU.xcdatamodeld in Sources */,
+				191C8C742CB55E5700126D89 /* HomeView.swift in Sources */,
+				191C8C762CB5602E00126D89 /* TransactionsDetailView.swift in Sources */,
 				191C8C422CB5599500126D89 /* UANGKUApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
