@@ -29,7 +29,7 @@ struct HomeView: View {
 
                     TransactionsDetailView()
                         .tabItem{
-                            Image(systemName: "creditcard.fill")
+                            Image(systemName: "wallet.bifold.fill")
                         }
 
                     CategoryView()
